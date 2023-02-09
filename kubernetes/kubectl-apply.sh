@@ -29,6 +29,7 @@ logSummary() {
 default() {
     suffix=k8s
     kubectl apply -f namespace.yml
+    kubectl label namespace store istio-injection=enabled 
     kubectl create -f prometheus.yml
     kubectl apply -f registry-${suffix}/
     kubectl apply -f gateway-${suffix}/
