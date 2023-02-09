@@ -1,0 +1,12 @@
+[submodule "notification"]
+	path = notification
+	url = https://github.com/elkassimyhajar/notification.git
+[submodule "gateway"]
+	path = gateway
+	url = https://github.com/elkassimyhajar/gateway.git
+[submodule "invoice"]
+	path = invoice
+	url = https://github.com/elkassimyhajar/invoice.git
+[submodule "productorder"]
+	path = productorder
+	url = https://github.com/elkassimyhajar/productorder.git
