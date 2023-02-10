@@ -46,7 +46,10 @@ spec:
               done
       containers:
         - name: invoice-app
-          image: hajarmk/masteringmicroservice:invoice
+          # image: hajarmk/masteringmicroservice:invoice
+          #For KIND
+          image: invoice
+          imagePullPolicy: Never
           env:
             - name: SPRING_PROFILES_ACTIVE
               value: prod
