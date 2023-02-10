@@ -22,8 +22,13 @@ gcloud container clusters create tuto-cluster --zone  europe-west1-b --machine-t
 ![GCP services](https://github.com/elkassimyhajar/mastering-microservices-submodules/blob/master/pics/services-gcp-console.png)
 
 
-We scale the invoice application by adding an extra instance.
+We scale the service registry and expose it.
 
+![GCP scale registry](https://github.com/elkassimyhajar/mastering-microservices-submodules/blob/master/pics/scaling.png)  
+
+GCP dashboard:  
+
+![GCP monitoring](https://github.com/elkassimyhajar/mastering-microservices-submodules/blob/master/pics/monitoring.png)
 
 ### Local Deployment with KinD (Kubernetes in Docker)
 
