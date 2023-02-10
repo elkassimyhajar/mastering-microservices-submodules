@@ -137,6 +137,3 @@ We noticed that all these steps took considerable time and the code was huge. Fo
 This will ensure a separate CI/CD pipeline for each microservice which will only be triggered if the corresponding microservice had changes.
 
 ![Github Submodules](https://github.com/elkassimyhajar/mastering-microservices-submodules/blob/master/pics/github.png)  
-
-
-https://github.com/elkassimyhajar/mastering-microservices-submodules/blob/master/pics/docker-hub-images.png
