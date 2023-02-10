@@ -83,7 +83,7 @@ gcloud container clusters create tuto-cluster --zone  europe-west1-b --machine-t
 
 ![Gatling tests](https://github.com/elkassimyhajar/mastering-microservices-submodules/blob/master/pics/istio-install.png)  
 
-After adding Istio, each pod get an additional container running inside (The istio proxy => sidecar). We can see details by describing a certain pod.  
+After adding Istio, each pod gets an additional container running inside (The istio proxy => sidecar). We can see details by describing a certain pod.  
 For example:  
 ```bash
 kubectl describe pods gateway-76654fc98d-89q9h -n store 
@@ -124,8 +124,7 @@ kubectl port-forward svc/kiali -n istio-system 20001
 
 ### Asynchronous Communication
 
-We used RabbitMq and Kafka to implement asynchronous communication between microservices but both had issues and bugs related to changes made in (jhipster
-versions)[https://www.jhipster.tech/2020/12/21/jhipster-release-7.0.0-beta.0.html]. 
+We used RabbitMq and Kafka to implement asynchronous communication between microservices but both had issues and bugs related to changes made in [jhipster-versions](https://www.jhipster.tech/2020/12/21/jhipster-release-7.0.0-beta.0.html). 
 
 With RabbitMq, files couldn't be generated even after a lot of debugging(changes in the package.json, changing functions **getAngularAppName=>getFrontendAppName**/**getJhipsterConfig=>getAllJhipsterConfig**).  
 
